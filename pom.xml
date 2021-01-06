@@ -13,6 +13,8 @@
     <module>order-service</module>
     <module>parment-service</module>
     <module>commodity-service</module>
+      <module>eureka-server7000</module>
+      <module>payment-service</module>
   </modules>
 
   <name>Maven</name>
