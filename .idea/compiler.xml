@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="USE_RELEASE_OPTION" value="false" />
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
@@ -8,22 +9,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="commodity-service" />
+        <module name="payment-service" />
+        <module name="common-service" />
         <module name="eureka-server7000" />
         <module name="order-service" />
-        <module name="payment-service" />
+        <module name="Eureka-server7001" />
         <module name="order-service-8081" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="order-service-8081" target="1.5" />
-      <module name="parment-service" target="8" />
-      <module name="payment-8080" target="8" />
-      <module name="untitled" target="8" />
-    </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="order-service-8081" options="" />
-    </option>
+    <bytecodeTargetLevel target="8" />
   </component>
 </project>
