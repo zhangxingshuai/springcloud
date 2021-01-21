@@ -15,6 +15,7 @@
         <module name="order-service" />
         <module name="Eureka-server7001" />
         <module name="order-service-8081" />
+        <module name="mq-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

@@ -1,0 +1,12 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: mq-service
+
+  rabbitmq:
+    host: 39.97.100.190
+    port: 5672
+    username: dapeng_jn
+    password: dapeng321
+    publisher-returns: true

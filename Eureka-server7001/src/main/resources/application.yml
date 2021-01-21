@@ -7,9 +7,13 @@ spring:
 eureka:
   instance:
     hostname: eureka7001.com
+    instance-id: eureka7001
   client:
     fetch-registry: false
     register-with-eureka: false
     #defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/      # 设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址(单机版)
     defaultZone: http://eureka7000.com:7000/eureka   # 集群版
+  server:
+    #是否开启自我保护机制，默认开启（当一个服务由于某些原因不可用，Eurka不会立即将服务清除，而是等待服务可用后继续执行，保证了AP原则）
+    enable-self-preservation: false
 

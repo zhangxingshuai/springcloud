@@ -17,6 +17,7 @@
       <module>payment-service</module>
       <module>Eureka-server7001</module>
     <module>common-service</module>
+      <module>mq-service</module>
   </modules>
 
   <name>Maven</name>

@@ -9,6 +9,8 @@
     <file url="file://$PROJECT_DIR$/common-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server7000/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eureka-server7000/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/order-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/payment-service/src/main/java" charset="UTF-8" />
