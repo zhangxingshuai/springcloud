@@ -5,5 +5,5 @@ import org.apache.ibatis.annotations.Select;
 
 public interface PaymentDao {
     @Select("select * from payment where id = #{id}")
-    Payment selectById(int id);
+    Payment selectById(Integer id);
 }
